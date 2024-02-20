@@ -1,0 +1,1 @@
+Projeto de cunho estudantil para conhecimento de funções assincronas.
