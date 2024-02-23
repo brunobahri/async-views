@@ -17,10 +17,10 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from .views import async_view, print_sum
+from .views import async_view, calculate
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", async_view),
-    path('print-sum/', print_sum, name='print_sum'),
+    path('calculate/', calculate, name='calculate'),
 ]
